@@ -1,1 +1,96 @@
-
+l {
+  display: block;
+  height: 1px;
+  border-top: 1px solid black;
+  margin: 1em 0;
+}
+#resetbutton {
+  background: red;
+  border: 2px solid black;
+  color: white;
+  font-size: 26;
+  font-weight: bold;
+}
+#resetbutton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#resetbutton:active {
+  transform: translateY(5px);
+}
+#countbutton {
+  background: #2C6ACB;
+  border: 2px solid black;
+  color: white;
+  font-size: 26;
+  font-weight: bold;
+}
+#countbutton:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}/
+#countbutton:active {
+  transform: translateY(5px);
+}
+#out {
+  background: black;
+  color: white;
+  margin: 0 300 10 300;
+  font-weight: bold;
+  padding: 5;
+  border: 2px solid #2C6ACB;
+}
+.h {
+  background: #2C6ACB;
+  font-family: "Bookman Old Style";
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: white;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5;
+  margin: 10 0 0 0;
+}
+.lbutton {
+  background: #2C6ACB;
+  border: 2px solid #2C6ACB;
+  font-weight: bold;
+  color: white;
+  font-family: "Bookman Old Style";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+.buttons {
+  background: #2C6ACB;
+  border: 2px solid #2C6ACB;
+  font-weight: bold;
+  color: white;
+  font-family: "Bookman Old Style";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+.lbutton:hover {
+  background: lightblue;
+  cursor: pointer;
+  color: gray;
+}
+.lbutton:active {
+  transform: translateY(5px);
+}
+.buttons:hover {
+  background: lightblue;
+  cursor: pointer;
+  color: gray;
+}
+.buttons:active {
+transform: translateY(5px);
+}
